@@ -80,11 +80,11 @@
 
         layer_GAMIN {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans          &trans           &trans         &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans          &trans          &trans           &trans         &trans  &trans
- &trans   &kp A   &kp S   &kp D  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans          &trans           &kp K            &kp L  &kp SEMICOLON  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans          &trans    &kp UP_ARROW           &trans         &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW         &trans  &trans
+           &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                   &trans  &trans          &trans          &trans           &trans         &trans  &trans
+           &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                   &trans  &trans          &trans          &trans           &trans         &trans  &trans
+ &kp LEFT_CONTROL   &kp A   &kp S   &kp D  &trans  &trans            &trans  &kp ESC  &trans                  &trans  &trans  &trans  &trans          &trans           &kp K            &kp L  &kp SEMICOLON  &trans
+           &trans  &trans  &trans  &trans  &trans  &trans                             &trans                  &trans                  &trans          &trans    &kp UP_ARROW           &trans         &trans  &trans
+           &trans  &trans  &trans  &trans  &trans                    &trans   &trans  &trans                  &trans  &trans  &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW         &trans  &trans
             >;
         };
 
